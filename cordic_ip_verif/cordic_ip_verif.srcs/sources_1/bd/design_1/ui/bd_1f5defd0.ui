@@ -1,0 +1,24 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-282,-165",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port interrupt -pg 1 -lvl 3 -x 630 -y 90 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -70 -y 60 -defaultsOSRD
+preplace port aresetn -pg 1 -lvl 0 -x -70 -y 80 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 1 -x 130 -y 70 -defaultsOSRD
+preplace inst CordicAccelerator_0 -pg 1 -lvl 2 -x 480 -y 90 -defaultsOSRD
+preplace netloc Net 1 0 2 -40 140 230
+preplace netloc Net1 1 0 2 -50 150 240
+preplace netloc CordicAccelerator_0_interrupt 1 2 1 N 90
+preplace netloc axi_vip_0_M_AXI 1 1 1 N 70
+levelinfo -pg 1 -70 130 480 630
+pagesize -pg 1 -db -bbox -sgen -180 -230 750 550
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_ps7_cnt":"1"
+}

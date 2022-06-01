@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_design_1_axi_vip_0_1_pkg_sv " />
+            <top_module name="\$unit_tb_top_sv " />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="design_1_axi_vip_0_1_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="tb_top" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="31100000001fs"></ZoomEndTime>
+      <Cursor1Time time="1634570001fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="244"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject type="array" fp_name="/tb_top/master_moniter_transaction_queue_size">
+      <obj_property name="ElementShortName">master_moniter_transaction_queue_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">master_moniter_transaction_queue_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/mtestBresp">
+      <obj_property name="ElementShortName">mtestBresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mtestBresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/mst_agent_verbosity">
+      <obj_property name="ElementShortName">mst_agent_verbosity[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mst_agent_verbosity[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/interrupt">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/xInput">
+      <obj_property name="ElementShortName">xInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/yInput">
+      <obj_property name="ElementShortName">yInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/zInput">
+      <obj_property name="ElementShortName">zInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/controlRegisterInput">
+      <obj_property name="ElementShortName">controlRegisterInput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">controlRegisterInput[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/xValue">
+      <obj_property name="ElementShortName">xValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/yValue">
+      <obj_property name="ElementShortName">yValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/zValue">
+      <obj_property name="ElementShortName">zValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/controllerState">
+      <obj_property name="ElementShortName">controllerState[1:0]</obj_property>
+      <obj_property name="ObjectShortName">controllerState[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/controlRegister">
+      <obj_property name="ElementShortName">controlRegister[31:0]</obj_property>
+      <obj_property name="ObjectShortName">controlRegister[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/s00_axi_wdata">
+      <obj_property name="ElementShortName">s00_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/s00_axi_awaddr">
+      <obj_property name="ElementShortName">s00_axi_awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/controlRegisterOutput">
+      <obj_property name="ElementShortName">controlRegisterOutput[31:0]</obj_property>
+      <obj_property name="ObjectShortName">controlRegisterOutput[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/controlRegisterWriteEnable">
+      <obj_property name="ElementShortName">controlRegisterWriteEnable</obj_property>
+      <obj_property name="ObjectShortName">controlRegisterWriteEnable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/busPort/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/busPort/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/interrupt">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg0">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg1">
+      <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg2">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg3">
+      <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg4">
+      <obj_property name="ElementShortName">slv_reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg5">
+      <obj_property name="ElementShortName">slv_reg5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg5[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/slv_reg6">
+      <obj_property name="ElementShortName">slv_reg6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg6[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/xResult">
+      <obj_property name="ElementShortName">xResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/yResult">
+      <obj_property name="ElementShortName">yResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busManager/intf/zResult">
+      <obj_property name="ElementShortName">zResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busIntf/xResult">
+      <obj_property name="ElementShortName">xResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busIntf/yResult">
+      <obj_property name="ElementShortName">yResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/busIntf/zResult">
+      <obj_property name="ElementShortName">zResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/nextX">
+      <obj_property name="ElementShortName">nextX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/nextY">
+      <obj_property name="ElementShortName">nextY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/nextZ">
+      <obj_property name="ElementShortName">nextZ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextZ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/xValue">
+      <obj_property name="ElementShortName">xValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/yValue">
+      <obj_property name="ElementShortName">yValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/inst/inst/controller/zValue">
+      <obj_property name="ElementShortName">zValue[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zValue[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/s00_axi_rdata">
+      <obj_property name="ElementShortName">s00_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/DUT/design_1_i/CordicAccelerator_0/s00_axi_araddr">
+      <obj_property name="ElementShortName">s00_axi_araddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_araddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/iTest">
+      <obj_property name="ElementShortName">iTest[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iTest[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/bf85/src" --include "../../../../cordic_ip_verif.srcs/sim_1/imports/incl" --include "/HDD/Vivado/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1_pkg.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_1/sim/design_1_axi_vip_0_1.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/Accelerator.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/BusManager.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/Controller.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/Cordic.sv" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/Lut.sv" \
+
+verilog xil_defaultlib  --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/bf85/src" --include "../../../../cordic_ip_verif.srcs/sim_1/imports/incl" --include "/HDD/Vivado/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ipshared/bf85/src/toplevel.v" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/ip/design_1_CordicAccelerator_0_1/sim/design_1_CordicAccelerator_0_1.v" \
+"../../../../cordic_ip_verif.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../cordic_ip_verif.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cordic_ip_verif.gen/sources_1/bd/design_1/ipshared/bf85/src" --include "../../../../cordic_ip_verif.srcs/sim_1/imports/incl" --include "/HDD/Vivado/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../cordic_ip_verif.srcs/sim_1/new/tb_top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

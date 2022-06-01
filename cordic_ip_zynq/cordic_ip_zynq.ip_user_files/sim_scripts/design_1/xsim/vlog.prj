@@ -1,0 +1,17 @@
+sv xil_defaultlib --include "/HDD/Vivado/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/bf85/src" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/34f8/hdl" \
+"../../../bd/design_1/ipshared/bf85/src/Accelerator.sv" \
+"../../../bd/design_1/ipshared/bf85/src/BusManager.sv" \
+"../../../bd/design_1/ipshared/bf85/src/Controller.sv" \
+"../../../bd/design_1/ipshared/bf85/src/Cordic.sv" \
+"../../../bd/design_1/ipshared/bf85/src/Lut.sv" \
+
+verilog xil_defaultlib --include "/HDD/Vivado/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/bf85/src" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../cordic_ip_zynq.gen/sources_1/bd/design_1/ipshared/34f8/hdl" \
+"../../../bd/design_1/ipshared/bf85/src/toplevel.v" \
+"../../../bd/design_1/ip/design_1_CordicAccelerator_0_0/sim/design_1_CordicAccelerator_0_0.v" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

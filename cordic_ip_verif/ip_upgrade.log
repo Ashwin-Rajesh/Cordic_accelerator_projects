@@ -1,0 +1,141 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri May 27 14:50:49 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri May 27 03:56:07 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri May 27 01:49:02 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 5) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri May 27 01:37:20 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Fri May 27 01:17:23 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Wed May 25 23:24:57 2022
+| Host         : ashwin--Y540-U running 64-bit Ubuntu 18.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_CordicAccelerator_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_CordicAccelerator_0_1 (user.org:user:CordicAccelerator:1.0) from (Rev. 1) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_CordicAccelerator_0_1'.
+
+
+-Upgrade has added interface 'interrupt' (xilinx.com:signal:interrupt:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_CordicAccelerator_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'interrupt'
+
+

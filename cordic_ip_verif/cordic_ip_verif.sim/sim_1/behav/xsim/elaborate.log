@@ -1,0 +1,36 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /HDD/Vivado/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto a388e49941ec4af9b32d50200bb8987c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_8 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_tb_top_sv
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.design_1_axi_vip_0_1_pkg
+Compiling package xil_defaultlib.$unit_design_1_axi_vip_0_1_pkg_s...
+Compiling module xil_defaultlib.BusInterface_default
+Compiling module xil_defaultlib.LutInterface_default
+Compiling module xil_defaultlib.CordicInterface_default
+Compiling module xil_defaultlib.BusManager(intf=BusInterface_def...
+Compiling module xil_defaultlib.Controller(busPort=BusInterface_...
+Compiling module xil_defaultlib.Cordic(intf=CordicInterface_defa...
+Compiling module xil_defaultlib.Lut(intf=LutInterface_default_lu...
+Compiling module xil_defaultlib.Accelerator
+Compiling module xil_defaultlib.toplevel
+Compiling module xil_defaultlib.design_1_CordicAccelerator_0_1
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=2,C_AX...
+Compiling module axi_vip_v1_1_8.axi_vip_v1_1_8_top(C_AXI_PROTOCO...
+Compiling module xil_defaultlib.design_1_axi_vip_0_1
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
